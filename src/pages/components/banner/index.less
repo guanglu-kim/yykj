@@ -1,0 +1,46 @@
+.titleback {
+    background-color: #00000055;
+    height: 90px;
+    display: flex;
+    padding-left: 26px;
+  
+    img {
+      vertical-align: middle;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  
+    .logo_title {
+      padding-left: 18px;
+      line-height: 90px;
+      font-size: 20px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  
+    .menubar {
+      color: gray;
+      display: flex;
+      padding-right: 26px;
+      div {
+        line-height: 90px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+          color: white;
+          border-bottom: 3px solid #498eff;
+        }
+  
+        span {
+          padding: 0 20px;
+          border-right: 1px solid grey;
+        }
+        &:nth-last-child(1) span {
+          border-right: 0px;
+        }
+      }
+    }
+  }
+  
